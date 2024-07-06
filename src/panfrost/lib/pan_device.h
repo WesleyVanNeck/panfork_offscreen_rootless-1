@@ -226,7 +226,7 @@ struct panfrost_device {
 
    struct panfrost_bo *sample_positions;
 
-   struct kbase_ mali;
+   struct kbase_mali;
 };
 
 static inline int
